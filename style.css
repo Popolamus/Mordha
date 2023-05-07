@@ -1,0 +1,196 @@
+body{
+    background-color: rgba(101, 82, 65, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.url{
+    text-decoration: none;
+}
+.shapka-logo{
+    display: flex;
+}
+.shapka{
+    justify-content: space-between;
+    display: flex;
+    z-index: 999;
+    position: fixed;
+    padding: 10px;
+    background-color: rgba(46, 38, 32, 0.95);
+    height: 109px;
+    width: 100vw;
+}
+
+button{
+    display: flex;
+    justify-content: end;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 10px;
+    height: 35px;
+    width: 170px;
+    font-size: 20px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+
+
+
+.logo{
+    background-image: cover;
+    height: 110px;
+    width: 93px;
+}
+
+p1{
+    color:white;
+    font-size: 48px;
+    text-align: none;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.background1{
+    height: 948px;
+    width: 100vw;
+    background-color: rgba(101, 82, 65, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.peregorodka1{
+    width: 100vw;
+    height: 26px;
+    background-color: rgba(82, 68, 55, 1);
+}
+
+.biglogo{
+    font-family:'Arial Narrow Bold', sans-serif;
+    color:white;
+    text-align: none;
+    font-size: 128px;
+    padding: 300px;
+    position: absolute;
+}
+.biglogo1{
+    font-family:'Arial Narrow Bold', sans-serif;
+    color:white;
+    text-align: none;
+    font-size: 36px;
+    padding: 540px;
+    position: absolute;
+}
+.logo1{
+    height: 493px;
+    width: 411px;
+    position: absolute;
+    padding: 250px;
+}
+
+.history{
+    background-color:rgba(29, 25, 22);
+    height: 1680px;
+    width: 100vw;
+}
+
+
+.present1{
+    height: 436px;
+    width: 747px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 25px;
+    transition: transform 1s;
+}
+.present2{
+    height: 436px;
+    width: 747px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 1025px;
+    transition: transform 1s;
+}
+.present3{
+    height: 436px;
+    width: 747px;
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 25px;
+    transition: transform 1s;
+}
+
+
+
+#presenttxt{
+    color: white;
+    position: absolute;
+    font-size: 48px;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.positiontxt1{
+    margin-top: 150px;
+    margin-left: 1000px;
+}
+.positiontxt2{
+    margin-top: 260px;
+    margin-left: 1000px;
+}
+.positiontxt3{
+    margin-left: 50px;
+    margin-top: 660px;
+}
+.positiontxt4{
+    margin-left: 50px;
+    margin-top: 715px;
+}
+.positiontxt5{
+    margin-top: 765px;
+}
+.positiontxt6{
+    margin-left: 1000px;
+    margin-top: 1230px;;
+}
+.positiontxt7{
+    margin-left: 1000px;
+    margin-top: 1340px;;
+}
+.positiontxt8{
+    margin-left: 1000px;
+    margin-top: 1190px;
+}
+
+:hover.present1{
+    transform: scale(1.1);
+}
+:hover.present2{
+    transform: scale(1.1);
+}
+:hover.present3{
+    transform: scale(1.1);
+}
+
+.spear{
+    height: 392px;
+    width: 372px;
+}
+
+.shield{
+    height: 401px;
+    width: 402px;
+}
+.sword{
+    height: 401px;
+    width: 402px;
+
+}
+
+.demoimg{
+    height: 1767px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
